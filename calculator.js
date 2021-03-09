@@ -4,9 +4,26 @@ let firstValue = parseInt(prompt("value 1 : "));
 let operator = prompt("operator : ");
 let secondValue = parseInt(prompt("value 2 : "));
 
-if(operator === "+"){
-console.log(firstValue+secondValue);
-}
-else {
-    console.log(firstValue-secondValue);
-}
+
+
+    switch (operator){
+    case "+" :
+        console.log(firstValue + secondValue);
+        break;
+    case "-" :
+        console.log(firstValue - secondValue);
+        break;
+    case "*" :
+        console.log(firstValue * secondValue);
+        break;
+    case "/" :
+        console.log(firstValue / secondValue);
+        break;
+        default:
+        console.log("invalid operator")
+    }
+            
+
+
+
+        
