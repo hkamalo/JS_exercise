@@ -1,9 +1,12 @@
 
 
-let firstValue = prompt("value 1 : ");
+let firstValue = parseInt(prompt("value 1 : "));
 let operator = prompt("operator : ");
-let secondValue = prompt("value 2 : ");
+let secondValue = parseInt(prompt("value 2 : "));
 
-console.log(firstValue);
-console.log(operator);
-console.log(secondValue);
+if(operator === "+"){
+console.log(firstValue+secondValue);
+}
+else {
+    console.log(firstValue-secondValue);
+}
