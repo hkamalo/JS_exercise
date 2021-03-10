@@ -6,7 +6,7 @@
 
 
 
-   switch (operator){
+switch (operator){
     case "+" :
         console.log(firstValue + secondValue);
         break;
@@ -25,5 +25,3 @@
 
 
 
-
-        
